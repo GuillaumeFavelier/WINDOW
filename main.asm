@@ -24,7 +24,7 @@ _start:
 	;; message debut
 	mov	rdi, 1d
 	mov	rsi, msg0
-	mov	rdx, 23
+	mov	rdx, 23d
 	mov	rax, 1d
 	syscall
 	
